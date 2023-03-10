@@ -1,1 +1,3 @@
-select * from hello
+select * from hello where id = 1;
+
+update hello set name = 'world' where id = 1;
